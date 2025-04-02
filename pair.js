@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://pin.it/4RNvcGg40",
+                url: "https://static.vecteezy.com/system/resources/previews/025/463/773/non_2x/hacker-logo-design-a-mysterious-and-dangerous-hacker-illustration-vector.jpg&tbnid=w_hjymmAdHu8yM&vet=1&imgrefurl=https://www.vecteezy.com/free-vector/hacker-logo&docid=97EZKTd_nfFFFM&w=1633&h=980&source=sh/x/im/m1/1&kgs=71b9bd38d08eb22d",
               },
               caption: sid,
             });
